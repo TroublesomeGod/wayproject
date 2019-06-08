@@ -1,0 +1,35 @@
+<!--DOCTYPE html-->
+<html lang="en" dir="ltr">
+   <head>
+        <meta charset="utf-8">
+        <title>Waystudio</title>
+        <link rel="stylesheet" type="text/css" href="login.css" >
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
+   </head>
+
+  <body class="login-body">
+      <div class="container">
+        <from name="Waystudio" action="/Waystudio.php" onbutton="return validateForm()" method="post">
+            <form class="form-input" >
+              <img src="img/-Man-Avatar.jpg" alt="Avatar man" width="75" height="75">
+              <br><br> <h2>Sign-in</h2><br>
+
+              <input type="text" name="username"><br>
+              <input type="password" name="password"><p>
+              <input type="button" id="login-btn" value="sign-in">
+
+          </form>
+        </form>
+         </div>
+  </body>
+  </html>
+
+  <script>
+function validateForm() {
+  var x = document.forms["Waystudio"]["username"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>

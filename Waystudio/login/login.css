@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*LOGIN-FORM*/
+.login-body {
+
+          margin: auto;
+          background-image: url("../images/wayst0110.jpg");*/
+          background-repeat: no-repeat;
+          background-size: 100% 720px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 400px;
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background-color: #34494e;
+    opacity: 0.95;
+    margin-top: 150px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.container .form-input{
+    position: absolute;
+    top:15%;
+    left:27.5%;
+    color: white;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 350px) {
+  .container {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+}
