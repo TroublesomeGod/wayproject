@@ -8,3 +8,11 @@ $(document).ready(function(){
     alart();
   };
 });
+
+function validateForm() {
+  var x = document.forms["Waystudio"]["username"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
